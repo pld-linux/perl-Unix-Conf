@@ -6,6 +6,7 @@
 %define	pdir	Unix
 %define	pnam	Conf
 Summary:	Unix::Conf - Set of modules for accesing and locking config files
+Summary(pl):	Unix::Conf - Zestaw modu³ów u³atwiajacych obs³uge plików konfiguracyjnych
 Name:		perl-Unix-Conf
 Version:	0.2
 Release:	1
@@ -22,6 +23,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Set of modules for accessing and locking config files. It handles
 dotlock and flock lock types.
+
+%description -l pl
+Zestaw modu³ów u³atwiajacych obs³uge plików konfiguracyjnych w tym 
+tworzenie blokad. Obs³ugiwane typy blokad to flock oraz dotfile.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
