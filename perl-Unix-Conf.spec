@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Unix
 %define	pnam	Conf
-Summary:	Unix::Conf - Set of modules for accesing and locking config files
-Summary(pl):	Unix::Conf - Zestaw modu³ów u³atwiaj±cych obs³ugê plików konfiguracyjnych
+Summary:	Unix::Conf - set of modules for accesing and locking config files
+Summary(pl):	Unix::Conf - zestaw modu³ów u³atwiaj±cych obs³ugê plików konfiguracyjnych
 Name:		perl-Unix-Conf
 Version:	0.2
 Release:	1
