@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Unix
-%define	pnam	Conf
+%define		pdir	Unix
+%define		pnam	Conf
 Summary:	Unix::Conf - set of modules for accesing and locking config files
 Summary(pl):	Unix::Conf - zestaw modu³ów u³atwiaj±cych obs³ugê plików konfiguracyjnych
 Name:		perl-Unix-Conf
