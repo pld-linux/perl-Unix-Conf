@@ -10,7 +10,7 @@ Summary(pl):	Unix::Conf - zestaw modu³ów u³atwiaj±cych obs³ugê plików konfigurac
 Name:		perl-Unix-Conf
 Version:	0.2
 Release:	1
-License:	GPL
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0cd54a49aa255256714fb4e0df0d8ba0
@@ -34,7 +34,6 @@ tworzenie blokad. Obs³ugiwane typy blokad to flock oraz dotfile.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
