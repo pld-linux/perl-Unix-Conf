@@ -6,7 +6,7 @@
 %define		pdir	Unix
 %define		pnam	Conf
 Summary:	Unix::Conf - set of modules for accesing and locking config files
-Summary(pl.UTF-8):   Unix::Conf - zestaw modułów ułatwiających obsługę plików konfiguracyjnych
+Summary(pl.UTF-8):	Unix::Conf - zestaw modułów ułatwiających obsługę plików konfiguracyjnych
 Name:		perl-Unix-Conf
 Version:	0.2
 Release:	1
