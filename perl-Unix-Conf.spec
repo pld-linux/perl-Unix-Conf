@@ -8,7 +8,7 @@ Summary:	Unix::Conf - set of modules for accesing and locking config files
 Summary(pl.UTF-8):	Unix::Conf - zestaw modułów ułatwiających obsługę plików konfiguracyjnych
 Name:		perl-Unix-Conf
 Version:	0.2
-Release:	2
+Release:	3
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
